@@ -51,6 +51,7 @@
 .card {
 	background-color: #ff385c;
 	font-size: xx-large;
+	border-radius: 10px;
 }
 #camping {
 	background-image: url(camping.jpg);
@@ -59,7 +60,7 @@
 	text-align: center;
 	color: white;
 	margin: 0 10%;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 #camping p {
 	padding-top: 500px;
