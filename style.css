@@ -1,0 +1,67 @@
+.navbar {
+	background-color: #000000;
+}
+.navbar img {
+	width: 90px;
+}
+#section1 {
+	background-color: #000000;
+}
+
+.blocInSearchBar {
+	border-left: grey solid 1px;
+	padding-left: 20px;
+}
+#blocInSearchBarDestinations {
+	border-left: none;
+}
+#blocInSearchBarVoyageurs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.searchBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #fff;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 50px;
+}
+.searchBar h3 {
+	font-size: small;
+	font-weight: bold;
+}
+.searchBar p {
+	margin-bottom: 0 !important;
+}
+#searchIcon {
+	width: 60px;
+	height: 60px;
+	background-color: #ff385c;
+	color: #ffffff;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 90px;
+	padding: 20px;
+}
+.card {
+	background-color: #ff385c;
+	font-size: xx-large;
+}
+#camping {
+	background-image: url(camping.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	margin: 0 10%;
+	border-radius: 20px;
+}
+#camping p {
+	padding-top: 500px;
+	font-size: xx-large;
+}
