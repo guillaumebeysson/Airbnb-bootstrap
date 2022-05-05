@@ -1,15 +1,43 @@
 .navbar {
 	background-color: #000000;
+	padding-bottom: 30px !important;
 }
 .navbar img {
 	width: 90px;
 }
+
 #section1 {
 	background-color: #000000;
+	padding-bottom: 50px;
+	margin-bottom: 3rem;
+}
+#section2 {
+	margin: 0 5% ;
+	margin-bottom: 3rem;
+	margin-top: 425px;
+}
+#section3 {
+	margin: 0 5% ;
+	margin-bottom: 3rem;
+}
+#section4 {
+	margin: 0 7% ;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+}
+#section4 {
+	margin: 0 7% ;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+}
+#section5 {
+	margin: 0 7% ;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
 }
 
 .blocInSearchBar {
-	border-left: grey solid 1px;
+	border-left: rgba(128, 128, 128, 0.226) solid 1px;
 	padding-left: 20px;
 }
 #blocInSearchBarDestinations {
@@ -31,6 +59,10 @@
 	padding: 10px;
 	border-radius: 50px;
 }
+h3{
+	font-weight: bold;
+	font-size: 3.5rem;
+}
 .searchBar h3 {
 	font-size: small;
 	font-weight: bold;
@@ -48,21 +80,228 @@
 	margin-left: 90px;
 	padding: 20px;
 }
-.card {
-	background-color: #ff385c;
+h2{
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin: 30px 4%;
+	font-size: 2rem;
+}
+h5{
+	font-weight: bold;
 	font-size: xx-large;
+	
+}
+.card {
+	border: none;
+	color: #ffffff;
 	border-radius: 10px;
+	height: 500px;
+}
+.card-body {
+	border-radius: 0 0 10px 10px;
+	
+}
+.card img{
+	border-radius: 10px 10px 0 0;
+	
+}
+#position{
+	position: sticky;
+	height: 280px;
 }
 #camping {
-	background-image: url(camping.jpg);
+	background-image: url(camping2.webp);
 	background-size: cover;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
 	margin: 0 10%;
 	border-radius: 10px;
+	position: relative;
 }
 #camping p {
 	padding-top: 500px;
-	font-size: xx-large;
+	font-size: 40px;
+}
+#camping button {
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: rgb(111, 1, 156);
+	font-weight: bold;
+}
+.backgroundWhite{
+	background: rgb(155, 9, 9);
+	width: 100vw;
+	height: 200px;
+	position: absolute;
+	bottom: 20px;
+	z-index: 0;
+}
+#grotte{
+	background-image: url(grotte.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#cuisine{
+	background-image: url(cuisine.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#section4 h2{
+	margin: 30px 0;
+	font-size: 50px;
+}
+#section5 h2{
+	padding: 50px 0;
+	font-weight: bold;
+	color: #fff;
+	font-size: 70px;
+}
+.carteCadeau{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.carteCadeau img{
+	width: 100%;
+}
+.carteCadeau .btn{
+	margin: 10px 0;
+	background-color: #222222;
+	color: #fff;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 15px 30px;
+}
+.carteCadeauLeft{
+	width: 30%;
+}
+.carteCadeauRight{
+	width: 70%;
+}
+.cardBlonde{
+	background-image: url(blondeHerbe.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 80vh;
+	border-radius: 10px;
+}
+.cardBlonde .btn{
+	margin-top: 20vh;
+	border-radius: 10px;
+	
+}
+.searchBarResponsive{
+	display: none !important;
+}
+@media only screen and (max-width: 991px) {
+    .searchBar{
+		display: none;
+	}
+	.searchBarResponsive{
+		display: block !important;
+		width: 280px !important;
+		display: flex !important;
+		flex-direction: row !important;
+		justify-content: center !important;
+		margin: 0 auto !important;
+		margin-bottom: 50px !important;
+	}
+	#search-addon{
+		background-color: #ff385c !important;
+		color: #fff !important;
+	}
+	#cardsVilles{
+		justify-content: center !important;
+	}
+	.carteCadeau{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center;
+	}
+	.carteCadeauLeft{
+		width: 100% !important;
+		text-align: center;
+	}
+	.carteCadeauRight{
+		width: 100% !important;
+		margin-top: 20px !important;
+	}
+	#aide {
+		margin: 10px;
+		margin-top: 0 !important;
+		padding: 5px !important;
+		height: 500px;
+		max-width: 90%;
+	}
+	#camping{
+		max-width: 90% !important;
+	}
+	
+	
+}
+@media only screen and (max-width: 768px) {
+    .experience{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center;
+	}
+	.card {
+		margin: 10px;
+		margin-top: 0 !important;
+		padding: 5px !important;
+		height: 500px;
+		max-width: 90%;
+	}
+	h3{
+		font-size: 3rem !important;
+	}
+	
+}
+@media only screen and (max-width: 620px) {
+    .cardBlonde h2{
+		font-size: 48px !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+    .cardBlonde{
+		text-align: center !important; 
+		margin-top: 70px !important;
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: space-around !important;
+		padding: 0 20px !important;
+	}
+	.cardBlonde .btn{
+		margin: 0 !important;
+	}
+	
+}
+@media only screen and (max-width: 501px) {
+    #position{
+		height: 380px;
+	}
+	#aide{
+		padding: 20px !important;
+		font-size: x-large !important;
+	}
+
+	.card {
+		margin: 10px;
+		margin-top: 0 !important;
+		padding: 5px !important;
+		height: 500px;
+		max-width: 90%;
+	}
+	.card-body{
+		padding: 10px !important;
+	}
+	
 }
